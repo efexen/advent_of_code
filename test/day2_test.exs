@@ -6,7 +6,7 @@ defmodule Day2Test do
   end
 
   test "Solves part 2 example" do
-    #assert Day2.solve_hex(["ULL", "RRDDD", "LURDL", "UUUUD"]) == "5DB3"
+    assert Day2.solve2(["ULL", "RRDDD", "LURDL", "UUUUD"]) == "5DB3"
   end
 
 end
